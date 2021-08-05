@@ -29,7 +29,7 @@ var has3d,
 
 	A90 = PI/2,
 
-	isTouch = 'ontouchstart' in window,
+	isTouch = false,
 
 	events = (isTouch) ? {start: 'touchstart', move: 'touchmove', end: 'touchend'}
 			: {start: 'mousedown', move: 'mousemove', end: 'mouseup'},
